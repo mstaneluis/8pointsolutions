@@ -5,8 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="8 Point Solutions, LLC is a licensed and bonded private investigation and security agency, offering professional services in New York City and Westchester County.">
     <meta name="keywords" content="Private Investigation, Security Services, Personal Protection, NYC Investigators, NYPD Retired, Bodyguards">
-    <meta name="author" content="8 Point Solutions, LLC">
+    <meta name="author" content="Marque N. Staneluis Tekworx, LLC">
     <title>8 Point Solutions, LLC</title>
+    <meta property="og:title" content="8 Point Solutions, LLC">
+    <meta property="og:descritpion" content="8 Point Solutions, LLC is a licensed and bonded private investigation and security agency, offering professional services in New York City and Westchester County.">
+    <meta property="og:url" content="http://8pointsolutionsllc.com">
+    <meta name="twitter:title" content="8 Point Solutions, LLC">
+    <meta name="twitter:title" content="8 Point Solutions, LLC is a licensed and bonded private investigation and security agency, offering professional services in New York City and Westchester County.">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -15,23 +20,39 @@
             margin: 0;
             padding: 0;
             scroll-behavior: smooth;
+            text-align: center;
+            width: 100%;
+        }
+        a{
+            color:white;
         }
         header {
-            background-image: url('grand-central.jpg');
+            background-image: url('images/grand-central-4582509_640.jpg');
             background-size: cover;
             background-position: center;
             padding: 60px 20px;
-            text-align: center;
             color: white;
-            position: relative;
+            text-shadow: #0a1a44 1px 1px 5px;
         }
         header h1 {
+            text-align: center;
+            display: inline-block;
             font-size: 48px;
             margin: 0;
+            padding: 5px 10px 5px 10px;
+            text-shadow: #0a1a44 1px 1px 5px;
+            background-color: #0a1a44;
+            max-width: fit-content;
         }
         header p {
-            font-size: 18px;
-            margin: 10px 0 0 0;
+            text-align: center;
+            display: inline-block;
+            font-size: 24px;
+            margin: 0;
+            padding: 5px 10px 5px 10px;
+            text-shadow: #0a1a44 1px 1px 5px;
+            background-color: #0a1a44;
+            max-width: fit-content;
         }
         nav {
             background-color: #16254d;
@@ -61,14 +82,39 @@
             line-height: 1.6;
         }
         .services {
-            background-image: url('cityscape.jpg');
+            background-image: url('images/gettyimages-135944530-612x612.jpg');
             background-size: cover;
             background-position: center;
             padding: 80px 20px;
             color: white;
+            text-shadow: #0a1a44 1px 1px 5px;
+        }
+        .services h2 {
+            background-color: #bbbbbb;
+            max-width: fit-content;
+            text-align: center;
+            display: inline-block;
+            padding: 5px 10px 5px 10px;
         }
         .services h3 {
             font-size: 24px;
+            background-color: #bbbbbb;
+            max-width: fit-content;
+            text-align: center;
+            display: inline-block;
+            padding: 5px 10px 5px 10px;
+        }
+        .services div {
+            background-color: #999999;
+            max-width: fit-content;
+            text-align: center;
+            display: inline-block;
+            padding: 5px 10px 5px 10px;
+        }
+        ul{
+            display: inline-block;
+            list-style: square inside;
+            text-align: left;
         }
         footer {
             background-color: #16254d;
@@ -80,19 +126,37 @@
             margin: 10px 0;
         }
         .contact {
-            background-color: #0a1a44;
+            background-image: url("images/blue-background-with-shiny-glowing-light-effect-design-vector_1017-40512.avif") ;
+            background-size: cover;
+            background-position: center;
             padding: 20px;
             text-align: center;
         }
         .contact p {
             font-size: 18px;
         }
+       .parent{
+            display: flex;
+            width: 100%;
+        }
+        .accredidations .aldonys{
+            flex: 1;
+            margin: 10px;
+            text-align: left;
+            width: 404px;
+            display: inline-block;
+        }
+        .accredidations .socpro{
+            margin: 10px 10px;
+            width: 600x;
+            display: inline-block;
+        }
     </style>
 </head>
 <body>
 
-<header>
-    <h1>8 Point Solutions, LLC</h1>
+<header aria-label="Background image of Grand Cetnral Terminal">
+    <h1>8 Point Solutions, LLC</h1><br/>
     <p>Professional Investigative and Protective Security Services</p>
 </header>
 
@@ -104,40 +168,77 @@
 
 <section id="introduction">
     <h2>Welcome to 8 Point Solutions, LLC</h2>
-    <p>We are a licensed and bonded private investigation agency offering a range of professional investigative and security services throughout the greater New York City area. Based in Mamaroneck, Westchester County, our agency is veteran-owned and operated by retired members of the NYPD. Our principals each have over 20 years of police experience and provide hands-on, personalized service to ensure the best results for our clients.</p>
+    <p>8 Point Solutions, LLC is a licensed and bonded private investigation agency, offering professional investigative and protective security services in the greater New York City area.  Our veteran owned and operated boutique agency is based in Westchester County in the Village of Mamaroneck. </p>
+        <p>Our office is conveniently located near the Metro-North train station and offers free parking. </p>
+        <p>All matters are personally handled by the principals of our agency, ensuring our clients receive the highest level of attention, sensitivity, and the best results possible. </p>
+        </p>
 </section>
 
-<section id="services" class="services">
-    <h2>Our Services</h2>
-    <h3>Private Investigation & Security</h3>
+<section id="services" class="services" aria-label="Background image of New York City skyline">
+    <h2>Our Services</h2><br/>
+    <h3>Private Investigation & Security</h3><br/>
+    <div>
     <p>We offer a range of services including:</p>
     <ul>
-        <li>Screening prospective employees and tenants</li>
+        <li>Screening assistance of prospective employees and tenants</li>
         <li>Monitoring properties to prevent access by squatters</li>
         <li>Discrete armed personal protection/bodyguard services</li>
-        <li>Security for small events</li>
+        <li>Armed Security for small events</li>
         <li>Employee dishonesty investigations for small businesses</li>
         <li>Missing person investigations</li>
         <li>Assisting law firms with case investigations</li>
-        <li>Identity theft recovery and mitigation</li>
+        <li>Identity theft recovery and loss mitigation</li>
+        <li>Law enforcement liaison services</li>
     </ul>
+    </div>
 </section>
 
 <section id="about">
     <h2>About Us</h2>
-    <p>8 Point Solutions, LLC is operated by a team of retired NYPD officers with decades of experience in law enforcement, investigations, and security operations. We bring unparalleled knowledge of police procedures, the criminal justice system, and government processes, providing clients with trustworthy, high-quality investigative solutions.</p>
+    <p style="text-align:left;margin: 10px;">8 Point Solutions, LLC is operated by a team of retired NYPD officers with decades of experience in law enforcement, investigations, and security operations. We bring unparalleled knowledge of police procedures, the criminal justice system, and government processes, providing clients with trustworthy, high-quality investigative and protective security solutions.</p>
+    <p style="text-align:left;margin: 10px;"">The principals of 8 Point Solutions, LLC are retired uniformed members of the New York City Police Department with managerial and executive-level backgrounds, each with over 20 years of police experience.  As such, we have extensive knowledge of police operations and investigations, the criminal justice system, and governmental processes.</p>
+    <span style="display: inline;opacity: 0.7;"><a href="https://www.nytimes.com/2001/02/04/nyregion/fyi-738972.html" target="_blank" title="8 Point Cap: Hats of the Finest" aria-label="Article on 8 Point Cap: Hats of the Finest"><img src="images/fr_eight_point_cap-midnight_blue_65-210_web_2_.jpg" width="200" alt="Image of 8 point cap"  aria-label="Image of 8 point cap"/></a></span>
+    
+    <p style="font-size: 24px;">8 Point Cap: Hats of the Finest</p>
+    <p>Q. When did the New York City police begin wearing the distinctively shaped hats they wear today?<br/>
+    A. The familiar eight-point hats were introduced in the early 1930's and replaced hats with circular crowns. <br/>
+    Read more about it here: <a href="https://www.nytimes.com/2001/02/04/nyregion/fyi-738972.html" target="_blank" title="8 Point Cap: Hats of the Finest" aria-label="Article on 8 Point Cap: Hats of the Finest">https://www.nytimes.com/2001/02/04/nyregion/fyi-738972.html
+    </a></p>
 </section>
 
-<section id="contact" class="contact">
+<section id="contact" class="contact" aria-label="Background Image of Blue glow">
     <h2>Contact Us</h2>
-    <p>We offer free confidential phone consultations to discuss your needs and our solutions. Call us at (914) 200-3828 or email us at <a href="mailto:info@8pointsolutionsllc.com">info@8pointsolutionsllc.com</a>.</p>
-    <p>Our office is located at:</p>
-    <p>650 Halstead Avenue Suite 201B1, Mamaroneck, NY 10543</p>
-    <p>8 Point Solutions, LLC is licensed by the New York Department of State, Division of Licensing Services.</p>
+    <div class="parent">
+        <div style="width: 50%">
+        <iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="650 Halstead Avenue, Mamaroneck, NY 10543" aria-label="Google map of 650 Halstead Avenue, Mamaroneck, NY 10543<"
+        src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=650%20Halstead%20Avenue,%20Mamaroneck,%20NY%2010543%3C+(8%20Point%20Solutions)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+            </iframe>
+        </div>
+        <div style="width: 50%; text-align: right; margin-left: 10px;">
+            <p>We offer free confidential phone consultations to discuss your needs and our solutions. Call us at (914) 200-3828 or email us at <a href="mailto:info@8pointsolutionsllc.com">info@8pointsolutionsllc.com</a>.</p>
+            <p>Our office is located at:<br/>
+            650 Halstead Avenue, Mamaroneck, NY 10543<br/>
+            Office hours: by appointment only.
+        </p>
+        </div>
+    </div>
 </section>
+
+<section id="accredidations" class="accredidations">
+    <div style="width:100%">
+        <div class="aldonys">
+            <a href="https://aldonys.org/" target="_blank" title="Associated Licensed Detectives Of New York State" aria-label="Link to Associated Licensed Detectives Of New York State"><img src="images/ALDONYS.png" alt="Associated Licensed Detectives Of New York State" aria-label="Logo of Associated Licensed Detectives Of New York State"></a>
+        </div>
+        <div class="socpro" style="overflow-wrap: anywhere;">
+            <a href="https://spinyc.org/" target="_blank" title="Society of Professional Investigators" aria-label="Link to Society of Professional Investigators"><img src="images/SocProInvestigors.jpg" height="82px" alt="Society of Professional Investigators" aria-label="Logo of Society of Professional Investigators"></a>
+        </div>
+    </div>
+    <p>8 Point Solutions, LLC is licensed by the New York State Department of State.</p>
+</section>
+
 
 <footer>
-    <p>&copy; 2024 8 Point Solutions, LLC. All rights reserved.</p>
+    <p>&copy; 2024 8 Point Solutions, LLC. All rights reserved. <br/>Created by Tekworx, LLC.</p>
 </footer>
 
 </body>
